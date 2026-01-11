@@ -1,0 +1,22 @@
+{
+  "name": "byoc-wrapper",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "BYOC wrapper using AWS STS and Node.js",
+  "dependencies": {
+    "aws-sdk": "^2.1693.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
